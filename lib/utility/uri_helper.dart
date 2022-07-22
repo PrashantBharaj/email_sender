@@ -1,3 +1,4 @@
+
 String? encodeQueryParameters(Map<String, String> params) {
   return params.entries
       .map((MapEntry<String, String> e) =>
